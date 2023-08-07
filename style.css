@@ -1,0 +1,68 @@
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+
+#banner h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding: 113px 0;
+  text-shadow: 2px 4px 10px black;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+a {
+  text-decoration: none
+}
+
+a:hover {
+  color: rgb(143, 63, 63);
+  background-image: linear-gradient(to bottom, rgba(125, 100, 179, 1), rgba(125, 255, 179, 1));
+}
+
+.container h2 {
+  font-size: 30
+}
+
+#banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+}
+
+@media (max-width: 2000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 970px;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
